@@ -7,9 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="elements.css" rel="stylesheet">
-    <link href="footer.css" rel="stylesheet">
-    <script src="my_js.js"></script>
+    <link href="contact.css.css" rel="stylesheet">
+    <!-- <link href="footer.css" rel="stylesheet"> -->
+    <script src="contact.js"></script>
     <title>Hello, world!</title>
   </head>
   <body>
@@ -40,28 +40,34 @@
             <!-- end navbar -->
             </body>
     <!-- Body Starts Here -->
-<body id="body" style="overflow:hidden;">
-  <div id="abc">
-  <!-- Popup Div Starts Here -->
-  <div id="popupContact">
-  <!-- Contact Us Form -->
-  <form action="#" id="form" method="post" name="form">
-  <img id="close" src="http://www.i2symbol.com/images/symbols/punctuation/modifier_letter_small_x_u02E3_icon_48x48.png" onclick ="div_hide()">
-  <h2>Contact Me!</h2>
-  <hr>
-  <input id="name" name="name" placeholder="Name" type="text">
-  <input id="email" name="email" placeholder="Email" type="text">
-  <textarea id="msg" name="message" placeholder="Message"></textarea>
-  <a href="javascript:%20check_empty()" id="submit">Send</a>
-  </form>
-  </div>
-  <!-- Popup Div Ends Here -->
-  </div>
-  <!-- Display Popup Button -->
-    <div class="mx-auto" style="width: 800px;">
-  <button id="popup" onclick="div_show()">contact</button> 
-    </div>
-  
+    <!-- put popup and button into container to make compatable on mobile -->
+    <div class="container">
+    <div class="row">
+      <body id="body" style="overflow:hidden;">
+      <div id="abc">
+      <!-- Popup Div Starts Here -->
+      <div id="popupContact">
+      <!-- Contact Us Form -->
+      <form action="#" id="form" method="post" name="form">
+      <img id="close" src="http://www.i2symbol.com/images/symbols/punctuation/modifier_letter_small_x_u02E3_icon_48x48.png" onclick ="div_hide()">
+      <h2>Contact Me!</h2>
+      <hr>
+      <input id="name" name="name" placeholder="Name" type="text">
+      <input id="email" name="email" placeholder="Email" type="text">
+      <textarea id="msg" name="message" placeholder="Message"></textarea>
+      <a href="javascript:%20check_empty()" id="submit">Send</a>
+      </form>
+      </div>
+      <!-- Popup Div Ends Here -->
+      </div>
+      <!-- Display Popup Button -->
+        <div class="mx-auto" style="width: 800px;">
+      <button id="popup" onclick="div_show()">contact</button> 
+        </div>
+        <!-- end row bellow -->
+      </div>
+      <!-- end container bellow -->
+      </div>
     
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

@@ -122,3 +122,19 @@ body {
 .row{
     background-image: url(https://www.wentzstore.com/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/f/u/fundo_1651___220x170_capa_1.jpg);
 }
+
+footer {
+  position:fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #cd853f;
+  display: grid;
+  place-items: center;
+  padding: 25px;
+}
+
+.foot{
+    font-weight: bolder;
+    font-size: larger;
+}

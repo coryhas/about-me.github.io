@@ -16,3 +16,27 @@ footer {
       font-weight: bolder;
       font-size: larger;
   }
+.container{
+    display: grid;
+    place-items: center;
+    padding: 25px;
+    /* max-width: 33.33%; */
+}
+.colum0{
+    display: grid;
+    place-items: left;
+    padding: 5x;
+    max-width: 33.33%;
+}
+.colum1{
+    display: grid;
+    place-items: center;
+    padding: 5px;
+    max-width: 33.33%;
+}
+.colum2{
+    display: grid;
+    place-items: right;
+    padding: 5px;
+    max-width: 33.33%;
+}
